@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Krishnavamsi Ambadipudi – Portfolio</title>
+  <meta name="description" content="Data Engineer & IT Support Engineer – AWS, Python, SQL, Automation, Windows/Networking, CDK Dealer Systems. STEM OPT. Open to H‑1B‑sponsoring employers." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b1b30; /* deep navy */
+      --card:#0f2544; /* slightly lighter */
+      --muted:#a9c1de;
+      --text:#e6f0ff;
+      --accent:#4da3ff;
+      --chip:#12345a;
+      --chip-border:#2c5e94;
+      --shadow: 0 20px 40px rgba(0,0,0,.35);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;background:radial-gradient(1200px 600px at 80% -10%, #173865 0%, transparent 60%), var(--bg); color:var(--text); font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px; margin:0 auto; padding:28px 20px 80px}
+    header{display:grid; grid-template-columns:1fr; gap:18px; padding:28px; background:linear-gradient(135deg, rgba(77,163,255,.12), rgba(255,255,255,.04)); border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); box-shadow:var(--shadow)}
+    .badge{display:inline-block; padding:6px 10px; border-radius:999px; border:1px solid rgba(255,255,255,.15); background:rgba(255,255,255,.04); color:var(--muted); font-weight:600; letter-spacing:.02em}
+    h1{font-size: clamp(28px, 5vw, 42px); line-height:1.05; margin:6px 0 4px}
+    .sub{font-size: clamp(14px, 2.6vw, 18px); color:var(--muted)}
+    .cta{display:flex; flex-wrap:wrap; gap:12px; margin-top:16px}
+    .btn{display:inline-flex; align-items:center; gap:10px; padding:12px 16px; border-radius:12px; border:1px solid rgba(255,255,255,.16); background:#0f2340; color:var(--text); font-weight:600}
+    .btn.primary{background:var(--accent); color:#07162b; border-color:transparent}
+    .btn:hover{filter:brightness(1.05)}
+
+    section{margin-top:32px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); padding:24px; box-shadow:var(--shadow)}
+    .grid{display:grid; gap:18px}
+    @media(min-width:900px){
+      .grid.cols-2{grid-template-columns:1fr 1fr}
+      .grid.cols-3{grid-template-columns:repeat(3, 1fr)}
+    }
+
+    h2{margin:0 0 12px; font-size: clamp(20px, 3.6vw, 28px)}
+    h3{margin:0 0 6px; font-size:18px}
+    p{margin:6px 0 12px; color:var(--muted)}
+
+    .chips{display:flex; flex-wrap:wrap; gap:10px}
+    .chip{padding:8px 12px; border-radius:999px; background:var(--chip); border:1px solid var(--chip-border); color:#cfe4ff; font-weight:600; letter-spacing:.01em}
+
+    .item{padding:16px; background:rgba(2,8,20,.35); border:1px solid rgba(255,255,255,.08); border-radius:14px}
+    .muted{color:var(--muted)}
+    .row{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+    .pill{color:#9dd0ff; font-weight:700; font-size:12px; padding:6px 10px; border-radius:999px; background:#0a1e38; border:1px solid rgba(157,208,255,.25)}
+    footer{margin-top:36px; text-align:center; color:var(--muted)}
+    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="badge">STEM OPT • Open to H‑1B Sponsorship</div>
+      <h1>Krishnavamsi Ambadipudi</h1>
+      <div class="sub">Data Engineer & IT Support Engineer · CDK Dealer Systems · Windows/BIOS/TPM · Networking · Python · SQL · AWS · Automation</div>
+      <div class="cta">
+        <a class="btn primary" href="mailto:avambadipudirao@gmail.com">Contact Me</a>
+        <a class="btn" href="https://linkedin.com/in/krishnavamsi-ambadipudi" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/ambadipudikrishnavamsi" target="_blank" rel="noopener">GitHub</a>
+        <!-- Replace the # below with a resume PDF link in your repo later -->
+        <a class="btn" href="#" title="Add your resume PDF and update this link">Download Résumé (PDF)</a>
+      </div>
+    </header>
+
+    <section>
+      <div class="card">
+        <h2>About</h2>
+        <p>
+          I’m a hands‑on engineer working across <strong>enterprise IT</strong> and <strong>modern data engineering</strong>. I support
+          dealership operations at <strong>Mike Kelly Automotive</strong> (CDK DMS, Windows 10/11, BIOS/TPM, BitLocker, networking, imaging),
+          and I also design practical data solutions (ETL pipelines, automation, dashboards) using <strong>Python, SQL, and AWS</strong>.
+          I’m currently based in the <strong>Pittsburgh Metropolitan Area</strong> and open to full‑time roles with H‑1B sponsorship.
+        </p>
+        <div class="chips">
+          <span class="chip">Windows 10/11</span>
+          <span class="chip">BIOS / UEFI / TPM</span>
+          <span class="chip">BitLocker</span>
+          <span class="chip">Networking (LAN/DHCP/DNS)</span>
+          <span class="chip">Python</span>
+          <span class="chip">SQL</span>
+          <span class="chip">ETL</span>
+          <span class="chip">AWS (Lambda/Glue/S3)</span>
+          <span class="chip">PowerShell</span>
+          <span class="chip">CDK Dealer Systems</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="grid cols-2">
+        <div class="card">
+          <h2>Experience</h2>
+          <div class="item">
+            <div class="row">
+              <h3>IT Support Engineer / Data Engineer</h3>
+              <span class="pill">Mike Kelly Automotive</span>
+              <span class="muted">Butler, PA · Oct 2025 – Present</span>
+            </div>
+            <p>
+              • Support multi‑site dealership IT (CDK DMS, user setups, hardware refreshes).<br />
+              • Windows 10/11 upgrades, BIOS/UEFI, TPM/Secure Boot, BitLocker, imaging.<br />
+              • Troubleshoot networking (LAN, DNS, DHCP, IPv4/IPv6) and endpoint performance.<br />
+              • Deploy PCs/printers; standardize builds; reduce downtime through root‑cause fixes.
+            </p>
+          </div>
+          <div class="item">
+            <div class="row">
+              <h3>Data Engineer</h3>
+              <span class="pill">Compleat Technical Solutions</span>
+              <span class="muted">Jan 2024 – Present</span>
+            </div>
+            <p>Designed scalable pipelines with Spark & Python; built ETL workflows and delivered clean datasets for analytics and dashboards.</p>
+          </div>
+          <div class="item">
+            <div class="row">
+              <h3>Salesforce Developer</h3>
+              <span class="pill">IQ Hector</span>
+              <span class="muted">May 2023 – Jan 2024</span>
+            </div>
+            <p>Built Apex/LWC solutions; integrated REST APIs; automated business processes with Flows and triggers.</p>
+          </div>
+        </div>
+        <div class="card">
+          <h2>Projects</h2>
+          <div class="item">
+            <h3>ETL Data Pipeline Automation</h3>
+            <p class="muted">AWS Lambda · Glue · S3 · Python</p>
+            <p>Serverless pipeline to ingest, transform, and load analytics‑ready data; daily automation and access‑controlled outputs.</p>
+          </div>
+          <div class="item">
+            <h3>Windows System Build Automation</h3>
+            <p class="muted">PowerShell · Imaging</p>
+            <p>Scripts to provision workstations, install apps, configure printers, and enforce security settings across sites.</p>
+          </div>
+          <div class="item">
+            <h3>Dealer Performance Dashboard</h3>
+            <p class="muted">SQL · Python · Power BI</p>
+            <p>Operational KPIs for sales/service/inventory with scheduled refresh and modeled transformations.</p>
+          </div>
+          <div class="item">
+            <h3>Network Monitoring Tool</h3>
+            <p class="muted">Python</p>
+            <p>Lightweight utility to log latency, DNS response, and throughput across locations for proactive troubleshooting.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="grid cols-3">
+        <div class="card">
+          <h2>Skills</h2>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">SQL</span>
+            <span class="chip">AWS</span>
+            <span class="chip">Spark</span>
+            <span class="chip">ETL</span>
+            <span class="chip">Power BI</span>
+            <span class="chip">Tableau</span>
+            <span class="chip">Windows 10/11</span>
+            <span class="chip">BIOS/UEFI</span>
+            <span class="chip">TPM/Secure Boot</span>
+            <span class="chip">BitLocker</span>
+            <span class="chip">Networking</span>
+            <span class="chip">PowerShell</span>
+            <span class="chip">CDK DMS</span>
+          </div>
+        </div>
+        <div class="card">
+          <h2>Education</h2>
+          <p><strong>Gannon University</strong> — M.S., Information Technology (2021–2025)</p>
+          <p><strong>Vardhaman College of Engineering</strong> — B.Tech, Information Technology (2016–2020)</p>
+        </div>
+        <div class="card">
+          <h2>Contact</h2>
+          <p>Email: <a href="mailto:avambadipudirao@gmail.com">avambadipudirao@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://linkedin.com/in/krishnavamsi-ambadipudi" target="_blank" rel="noopener">/in/krishnavamsi-ambadipudi</a></p>
+          <p>GitHub: <a href="https://github.com/ambadipudikrishnavamsi" target="_blank" rel="noopener">@ambadipudikrishnavamsi</a></p>
+          <p class="muted">Pittsburgh Metropolitan Area · Open to full‑time roles (H‑1B Sponsorship).</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="mono">© <span id="y"></span> Krishnavamsi Ambadipudi · Built with HTML/CSS — deploy on GitHub Pages</p>
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
